@@ -65,7 +65,7 @@ SLIDES.push(
 			button.removeAttribute("disabled");
 		}else{
 			label = getWords("preloader_loading") + " ";
-			label += Math.round(window.PRELOAD_PROGRESS*100) + "%";
+			label += window.PRELOAD_PROGRESS.toLocaleString(document.documentElement.lang, {style:"percent"});
 		}
 		button.innerHTML = label;
 
