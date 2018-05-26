@@ -328,6 +328,7 @@ a:hover{
 	user-select: none; 
 }
 #sound{
+    direction: ltr; /* otherwise sound_icon and text would overlap in rtl languages. */
 	position: absolute;
 	left:0; top:0;
 	color: #fff;
