@@ -285,7 +285,7 @@ function Peep(config){
 
 				// %, centered
 				ctx.textAlign = "center";
-				var labelPercent = Math.round(100*(self.numInfectedFriends/self.numFriends)) + "%";
+				var labelPercent = (self.numInfectedFriends/self.numFriends).toLocaleString(document.documentElement.lang, {style:"percent"});
 				ctx.fillText(labelPercent, 0, 0);
 
 				/*

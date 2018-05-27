@@ -35,7 +35,7 @@ function SandboxUI(container){
 
 		// update label
 		var label = _labelContagion0+" ";
-		label += Math.round(contagion*100)+"% ";
+		label += contagion.toLocaleString(document.documentElement.lang, {style:"percent"});
 		label += "("+((contagion==0) ? _labelContagion1 : _labelContagion2)+")";
 		contagionLabel.innerHTML = label;
 

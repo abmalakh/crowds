@@ -275,7 +275,7 @@ SLIDES.push(
 		// Modify metric box!
 		var label = getWords("networks_puzzle_metric") + " " + peepCount + " " + getWords("networks_puzzle_metric_2");
 		state.metric_label.innerHTML = label;
-		state.metric_bar.style.width = Math.round((peepCount/9)*100)+"%";
+		state.metric_bar.style.width = (peepCount/9).toLocaleString(document.documentElement.lang, {style:"percent"});
 
 		// Win only if EVERYONE hits threshold
 		if(!state.won){
