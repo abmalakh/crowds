@@ -277,7 +277,14 @@ function Peep(config){
 
 			// Say: Infected/Friends (% then n/n)
 			ctx.translate(0,-46);
-			ctx.font = '12px PatrickHand';
+			
+			if(document.documentElement.lang == 'fa'){
+				ctx.font = '15px Koodak';
+			}
+			else{
+				ctx.font = '12px PatrickHand';
+			}
+			
 			ctx.fillStyle = uiColor;
 			ctx.textBaseline = "middle";
 			ctx.fontWeight = "bold";
