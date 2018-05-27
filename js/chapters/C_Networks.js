@@ -256,7 +256,7 @@ SLIDES.push(
 		bar.style.background = COLOR;
 		bar.style.height = "100%";
 		bar.style.position = "absolute";
-
+		
 		// Save this cool DOM into state
 		state.metric_label = label;
 		state.metric_bar = bar;
@@ -275,7 +275,7 @@ SLIDES.push(
 		// Modify metric box!
 		var label = getWords("networks_puzzle_metric") + " " + peepCount.toLocaleString(document.documentElement.lang) + " " + getWords("networks_puzzle_metric_2");
 		state.metric_label.innerHTML = label;
-		state.metric_bar.style.width = (peepCount/9).toLocaleString(document.documentElement.lang, {style:"percent"});
+		state.metric_bar.style.width = (peepCount/9).toLocaleString("en", {style:"percent"});
 
 		// Win only if EVERYONE hits threshold
 		if(!state.won){
