@@ -273,7 +273,7 @@ SLIDES.push(
 		});
 
 		// Modify metric box!
-		var label = getWords("networks_puzzle_metric") + " " + peepCount + " " + getWords("networks_puzzle_metric_2");
+		var label = getWords("networks_puzzle_metric") + " " + peepCount.toLocaleString(document.documentElement.lang) + " " + getWords("networks_puzzle_metric_2");
 		state.metric_label.innerHTML = label;
 		state.metric_bar.style.width = (peepCount/9).toLocaleString(document.documentElement.lang, {style:"percent"});
 
