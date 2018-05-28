@@ -95,7 +95,7 @@ SLIDES.push(
 		{
 			type:"box",
 			text:"simple_simple_2",
-			x:0, y:390, w:650, h:100,
+			x:1, y:390, w:650, h:100,  //x:1 solves problem in rtl language, while not adding new issues to ltr language. 
 			align: "right"
 		},
 		{
