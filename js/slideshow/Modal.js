@@ -22,7 +22,7 @@ subscribe("reference/show", function(ref_id){
 	// HACK: IF IT'S PATREON PEOPLE, *NOW* SHOW IFRAME
 	if(ref_id=="supporters"){
 		$("#modal_content").innerHTML = footnote+'<br><br>'+
-			'<iframe src="supporters" width="730" height="330" style="border:none; margin:0 auto; display:block"></iframe>';
+			'<iframe src="supporters/" width="730" height="330" style="border:none; margin:0 auto; display:block"></iframe>';
 	}
 
 	if($("reference#"+ref_id).getAttribute("large")){
@@ -106,8 +106,10 @@ subscribe("modal/translations", function(){
 			html += getWords("translations_do_not_exist");
 		}
 		html += " <a target='_blank' href='"+window.ADD_YOUR_OWN_LINK+"'>"+getWords("translations_add")+"</a>";
-		html += "<br>";
+		html += " <a href='.'>"+getWords("translations_original")+"</a>";
+		html += "<div style='height:12px'></div>";
 		html += _createLinks(" · ");
+		
 		$("#modal_content").innerHTML = html;
 			
 		// Show in large box
