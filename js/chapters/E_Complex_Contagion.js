@@ -13,13 +13,13 @@ SLIDES.push(
 			type:"box",
 			id:"complex_complex",
 			text:"complex_complex",
-			x:0, y:0, w:480, h:540
+			x:0, y:0,w:480, h:540
 		},
 
 		// Sim
 		{
 			type:"sim",
-			x:0, y:0,
+			x:-480, y:0,
 			fullscreen: true,
 			network: {
 				"contagion":0.5,
@@ -37,7 +37,7 @@ SLIDES.push(
 		// UI for the simulation
 		{
 			type:"box",
-			x:520, y:230,
+			x:40, y:230,
 			sim_ui:"red"
 		}
 
