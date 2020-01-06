@@ -381,7 +381,7 @@ SLIDES.push(
 		{
 			type:"box",
 			text:"complex_prevent_end",
-			x:660, y:450, w:300, h:90
+			x:500, y:500, w:300, h:90
 		}
 	]
 },
@@ -395,7 +395,7 @@ SLIDES.push(
 		// NASA Image
 		{
 			type:"box",
-			img:"sprites/nasa.png", x:0, y:0, w:425, h:450
+			img:"sprites/nasa.png", x:-100, y:0, w:425, h:450
 		},
 
 		// Text
