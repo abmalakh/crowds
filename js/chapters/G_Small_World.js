@@ -10,7 +10,7 @@ SLIDES.push(
 		// use a DRAWING to impose SOFT CONSTRAINTS
 		{
 			type:"sim",
-			x:150, y:0,
+			x:-150, y:0,
 			fullscreen: true,
 			network: {
 				"contagion":0.25,
@@ -29,7 +29,7 @@ SLIDES.push(
 		{
 			type:"box",
 			id:"ui",
-			x:70, y:180,
+			x:0, y:180,
 			sim_ui:"blue"
 		},
 
@@ -105,7 +105,7 @@ SLIDES.push(
 		},
 		{
 			type:"box",
-			text:"bb_small_world_4", x:640, y:130, w:320, h:40,
+			text:"bb_small_world_4", x:20, y:130, w:320, h:40,
 			fontSize:"30px", lineHeight:"30px",
 			align:"center"
 		},
