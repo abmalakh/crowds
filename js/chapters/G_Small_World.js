@@ -115,7 +115,7 @@ SLIDES.push(
 		},
 		{
 			type:"box",
-			text:"bb_small_world_end", x:640, y:440, w:320, h:100,
+			text:"bb_small_world_end", x:0, y:440, w:320, h:100,
 			align:"center"
 		}
 
