@@ -8,7 +8,7 @@ SLIDES.push(
 		// The fullscreen simulation
 		{
 			type:"sim",
-			x:0, y:0,
+			x:-250, y:0,
 			fullscreen: true,
 			network: {
 				"contagion":0.25,
@@ -27,7 +27,7 @@ SLIDES.push(
 		// Simulation UI
 		{
 			type:"box",
-			x:35, y:400,
+			x:0, y:400,
 			sim_ui:"red"
 		},
 
