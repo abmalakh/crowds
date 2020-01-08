@@ -211,6 +211,7 @@ a:hover{
 .sandbox_ui input[type="range"]{
 	width: 100%;
 	cursor: none;
+	float: right;
 }
 .choose_one{
 	overflow: hidden;
@@ -232,7 +233,7 @@ a:hover{
 }
 .choose_tool{
 	background: #fff;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 16px;
 	border: 1px solid black;
 	padding: 3px;
@@ -245,10 +246,10 @@ a:hover{
 	background-size: auto 100%;
 }
 #sandbox_shortcuts_label{
-	font-size: 22px;
+	font-size: 16px;
 }
 #sandbox_shortcuts{
-	font-size: 20px;
+	font-size: 14px;
     line-height: 1.2em;
     color: #999;
 }
